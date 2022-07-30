@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Vibration } from 'react-native';
 import { Countdown } from '../components/Countdown';
 import { ProgressBar } from 'react-native-paper';
 import { RoundedButton } from '../components/RoundedButton';
-import {useKeepAwake} from "expo-keep-awake"
+import { useKeepAwake } from "expo-keep-awake"
 import { spacing, fontSizes } from '../utils/sizes';
 import { ClearButton } from './ClearButton';
 import { colors } from '../utils/colors';
@@ -138,7 +138,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: fontSizes.md,
   },
-  clearButton:{
+  clearButton: {
     alignItems: "center",
+    marginBottom: 20
   }
 });
